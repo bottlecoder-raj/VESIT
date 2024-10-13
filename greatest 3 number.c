@@ -1,7 +1,7 @@
 #include<stdio.h>
  int main(){
      int a,b,c,temp;
- printf("enter the three numbers:\n");
+ //printf("enter the three numbers:\n");
  printf("enter 1st number: ");
  scanf("%d",&a);
   printf("enter 2nd number: ");
@@ -9,8 +9,8 @@
   printf("enter 3rd number: ");
  scanf("%d",&c);
 
- printf("The three numbers are :%d,%d,%d ",a,b,c);
-printf("\n");
+ //printf("The three numbers are :%d,%d,%d ",a,b,c);
+//printf("\n");
  if(a>=b && a>=c)
  {
      temp=a;
