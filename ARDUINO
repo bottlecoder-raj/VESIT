@@ -38,7 +38,7 @@ lcd.print(slot);
 void loop() {
 
   // put your main code here, to run repeatedly:
-if(slot>=0  && slot<5 && digitalRead (R1) ==0 && digitalRead (R2) == 1){
+if( slot<5 && digitalRead (R1) ==0 && digitalRead (R2) == 1){
   slot=slot+1;
  
   myservo.write(170);
@@ -66,7 +66,7 @@ delay(2000);
 myservo.write(170);
 
 }
-else if(slot==0){
+else if(slot<=0){
 lcd.setCursor (0,0);
 lcd.print("    SORRY :(    ");  
 lcd.setCursor (0,1);
