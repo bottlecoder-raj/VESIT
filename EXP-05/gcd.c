@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// written by Manthan illake
 #include <stdio.h>
 int gcd(int *a,int *b)
 {
