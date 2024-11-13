@@ -1,15 +1,31 @@
 #include <stdio.h>
 
-int sum(int k) {
-  if (k > 1) {
-    return k * sum(k - 1);  // Multiply k with the result of sum(k-1)
-  } else { 
-    return 1;  // Return 1 when k == 1 (base case for factorial)
-  }
+// Recursive function to find the factorial of a number
+int factorial(int n) {
+    if (n == 0 || n == 1) 
+    {
+        return 1;
+    } 
+    else 
+    {
+        return n * factorial(n - 1); 
+    }
 }
 
 int main() {
-  int result = sum(5);
-  printf("%d", result);  // This will print 120 (5!)
-  return 0;
+    int number;
+    
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    if (number < 0) 
+    {
+        printf("Factorial is not defined for negative numbers.\n");
+    } 
+    else 
+    {
+        printf("Factorial of %d is %d\n", number, factorial(number));
+    }
+    
+    return 0;
 }
