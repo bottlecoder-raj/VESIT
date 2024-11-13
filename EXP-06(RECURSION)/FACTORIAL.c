@@ -1,3 +1,5 @@
+// written by Manthan illake
+
 #include <stdio.h>
 
 // Recursive function to find the factorial of a number
