@@ -1,6 +1,6 @@
 // written by Manthan illake
 #include <stdio.h>
-int gcd(int *a,int *b)
+void gcd(int *a,int *b)
 {
     int t;
     while(*b!=0)
@@ -10,7 +10,7 @@ int gcd(int *a,int *b)
         *a = *b;
         *b = t;
     }
-    return a;
+
 }
 int main() {
     int a,b;
@@ -20,4 +20,5 @@ int main() {
     scanf("%d",&b);
     gcd(&a,&b);
     printf("Greatest common divisor is:%d",a);
+    return 0;
 }
