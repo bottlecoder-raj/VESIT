@@ -3,6 +3,9 @@
 int main(){
     
 int x[10]={33,444,55,66,77,88,98,92,34,86};
+    for(int i=0;i<10;i++){
+printf("array is:%d",x[i]);
+    }
 int min=100,max=1;
 for(int i=0;i<10;i++){
     if(min>x[i]){
