@@ -5,7 +5,7 @@ int main(){
     int sum;
    char str[100];
    printf("enter the string:");
-   scanf("%[^\n]%*c",&str);
+   scanf("%[^\n]%*c",&str);//inludes spaces
    int length=strlen(str);
  
    for(int i=0;i<length;i++){
