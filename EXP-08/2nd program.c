@@ -28,7 +28,7 @@ int main() {
     // Display student details
     printf("\nDisplaying details of %d Book:\n", NUM_TITLE);
     for (int i = 0; i < NUM_TITLE; i++) {
-        printf("\nStudent %d\n", i + 1);
+        printf("\nbook %d\n", i + 1);
         printf("Name: %s\n", Bookinfo[i].title);
         printf("Author: %s\n", Bookinfo[i].author);
         printf("Price: %.2f\n", Bookinfo[i].price);
