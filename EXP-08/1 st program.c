@@ -1,5 +1,5 @@
 //Create a structure to 
-} #include <stdio.h>
+ #include <stdio.h>
 #define NUM_STUDENTS 100
 
 // Define the structure for a student
