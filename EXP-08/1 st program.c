@@ -1,6 +1,6 @@
 //Create a structure to 
 } #include <stdio.h>
-#define NUM_STUDENTS 3
+#define NUM_STUDENTS 100
 
 // Define the structure for a student
 struct Student {
