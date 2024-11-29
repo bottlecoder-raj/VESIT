@@ -1,4 +1,4 @@
-//Create a structure to 
+
  #include <stdio.h>
 #define NUM_STUDENTS 100
 
