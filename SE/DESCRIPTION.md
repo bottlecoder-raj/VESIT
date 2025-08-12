@@ -1,5 +1,5 @@
 ALL CODES EXECUTED IN DATA STRUCTURE LECTURE!!!!!!!
-...................................................................................................
+---------------------------------------------------------------------------------------
 ...
 LAB 02:REPRESENTATION OF STACKS:
 What is a Stack?
@@ -8,7 +8,7 @@ You add plates on the top of the stack.
 You remove plates also from the top.
 You cannot take a plate from the middle or bottom without first removing the ones on top.
 This behavior is called LIFO — Last In, First Out.
--------------------------------------------------
+............
 Basic Operations on a Stack
 Push:
 Add (push) an item on top of the stack.
