@@ -1,1 +1,63 @@
 ALL CODES EXECUTED IN DATA STRUCTURE LECTURE!!!!!!!
+...
+...
+LAB 02:REPRESENTATION OF STACKS:
+What is a Stack?
+A stack is a special kind of data structure that stores items in a particular order. Imagine a stack of plates:
+You add plates on the top of the stack.
+You remove plates also from the top.
+You cannot take a plate from the middle or bottom without first removing the ones on top.
+This behavior is called LIFO — Last In, First Out.
+-------------------------------------------------
+Basic Operations on a Stack
+Push:
+Add (push) an item on top of the stack.
+For example, if the stack has plates A, B, C (C is on top), pushing D puts D on top: A, B, C, D (D is top).
+
+Pop:
+Remove (pop) the item from the top of the stack.
+If the stack has A, B, C, D, popping removes D, leaving A, B, C.
+
+Peek (not in your code but common):
+Look at the top item without removing it.
+
+Display:
+Show all items currently in the stack from top to bottom.
+----------------------------------------------
+How is the Stack Stored in Your Program?
+Your program uses an array to hold the stack elements.
+The variable top keeps track of where the top of the stack is in the array.
+When top is -1, the stack is empty.
+When you push, you increase top by 1 and place the new element there.
+When you pop, you remove the element at top and decrease top by 1.
+
+Why Check for Overflow and Underflow?
+Overflow means you are trying to push an item but the stack is already full (array is full).
+You can’t add more elements beyond the stack’s size (n).
+Underflow means you are trying to pop an item but the stack is empty (nothing to remove).
+---------------------------------------------
+Visualization Example
+Imagine the stack is empty at start:
+
+Index	0	1	2	3	...	n-1
+Value						
+Top	-1 (means empty)					
+
+Push 5: top becomes 0, stack[0] = 5
+
+Index	0	1	2	3	...	n-1
+Value	5					
+Top	0					
+
+Push 10: top becomes 1, stack[1] = 10
+
+Index	0	1	2	3	...	n-1
+Value	5	10				
+Top	1					
+
+Pop: remove stack[1] (value 10), top becomes 0 again.
+
+Index	0	1	2	3	...	n-1
+Value	5					
+Top	0		
+.-.-.-.-.-.-..-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.--..-.-.-.-.-.-.-.-.-.-
