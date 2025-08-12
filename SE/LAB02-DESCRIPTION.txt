@@ -1,7 +1,6 @@
-ALL CODES EXECUTED IN DATA STRUCTURE LECTURE!!!!!!!
----------------------------------------------------------------------------------------
-...
+
 LAB 02:REPRESENTATION OF STACKS:
+--------------------------------------------------------------------------------------------------------------------------
 What is a Stack?
 A stack is a special kind of data structure that stores items in a particular order. Imagine a stack of plates:
 You add plates on the top of the stack.
